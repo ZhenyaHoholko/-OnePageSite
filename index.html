@@ -9,12 +9,15 @@
 
 <body>
     <header>
-        <link rel="stylesheet" href="">
+        <a href="">
+            <img src="./assets/images/true.png" alt="">
+        </a>
+
         <nav>
             <ul>
-                <il>Main</il>
-                <il>Rates</il>
-                <il>create account</il>
+                <li><a href="">Main</a></li>
+                <li><a href="">Rates</a></li>
+                <li><a href="">Create account</a></li>
             </ul>
         </nav>
     </header>
@@ -32,48 +35,38 @@
     <section>
         <h2>Rates</h2>
         <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
-        <tabel>
-            <thead>
-                <tr>
-                    <th>Features</th>
-                    <th>Standart</th>
-                    <th>Plus</th>
-                    <th>PRO</th>
-                </tr>
-            </thead>
-            <thead>
-                <tr>
-                    <td>Theory</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </thead>
-            <thead>
-                <tr>
-                    <td>Practice</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </thead>
-            <thead>
-                <tr>
-                    <td>Code review</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </thead>
-            <thead>
-                <tr>
-                    <td>Have questions?</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </thead>
-        </tabel>
+        <table>
+            <tr>
+                <th>Features</th>
+                <th>Standart</th>
+                <th>Plus</th>
+                <th>PRO</th>
+            </tr>
+            <tr>
+                <td>Theory</td>
+                <td><img src="./assets/images/true.png" alt=""></td>
+                <td><img src="./assets/images/true.png" alt=""></td>
+                <td><img src="./assets/images/true.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Practice</td>
+                <td><img src="./assets/images/false.png" alt=""></td>
+                <td><img src="./assets/images/true.png" alt=""></td>
+                <td><img src="./assets/images/true.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Code review</td>
+                <td><img src="./assets/images/false.png" alt=""></td>
+                <td><img src="./assets/images/false.png" alt=""></td>
+                <td><img src="./assets/images/true.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Have questions?</td>
+                <td><button>get now</button></td>
+                <td><button>get now</button></td>
+                <td><button>get now</button></td>
+            </tr>
+        </table>
     </section>
     <section>
         <div>
@@ -83,38 +76,48 @@
                 see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be,
                 regardless of the fact that in real life.</p>
             <ol>
-                <il>Easy setup, fast start</il>
-                <il>Free forever for core features</il>
-                <il>14-day trial of premium features</il>
+                <li>Easy setup, fast start</li>
+                <li>Free forever for core features</li>
+                <li>14-day trial of premium features</li>
             </ol>
         </div>
         <div>
-            <form action="">
+            <form action="./index.html">
                 <input type="text" placeholder="Full Name*">
                 <input type="email" placeholder="Email*">
                 <input type="password" placeholder="Password*">
-                <input type="date" placeholder="Date of Birth*">
-                <select name="country" id="country" placeholder="Country">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
+                <input type="date">
+                <select>
+                    <option selected disabled>Country</option>
+                    <option value="1">Belarus</option>
+                    <option value="2">China</option>
+                    <option value="3">Usa</option>
                 </select>
-                <input type="radio" name="elem" value="Frontend" checked>Frontend<br>
-                <input type="radio" name="elem" value="Backend">Backend<br>
-                <input type="checkbox" name="" id="checkbox">
-                <label for="checkbox">HTML</label>
-                <label for="checkbox">CSS</label>
-                <label for="checkbox">React</label>
-                <label for="checkbox">Styled components</label>
-                <input type="textarea" placeholder="Something else about you...">
-                <input type="submit" value="registration">
+                <label><input type="radio" name="stack" value="Frontend" checked>Frontend</label>
+                <label><input type="radio" name="stack" value="Backend">Backend</label>
+                <fieldset>
+                    <legend>Favorite Technologies</legend>
+                    <label>
+                        <input type="checkbox">HTML
+                    </label>
+                    <label>
+                        <input type="checkbox">CSS
+                    </label>
+                    <label>
+                        <input type="checkbox">React
+                    </label>
+                    <label>
+                        <input type="checkbox">Styled components
+                    </label>
+                </fieldset>
+                <textarea placeholder="Something else about you..."></textarea>
+                <input type="submit">
             </form>
         </div>
     </section>
     <footer>
-        <p>Copyright © 2023. All rights reserved.</p>
+        <span>Copyright © 2023. All rights reserved.</span>
     </footer>
 </body>
-
 
 </html>
