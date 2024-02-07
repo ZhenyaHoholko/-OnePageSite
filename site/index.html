@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 
@@ -15,18 +19,18 @@
 
         <nav>
             <ul>
-                <li><a href="">Main</a></li>
-                <li><a href="">Rates</a></li>
-                <li><a href="">Create account</a></li>
+                <li class="header-content"><a href="">Main</a></li>
+                <li class="header-content"><a href="">Rates</a></li>
+                <li class="header-content"><a href="">Create account</a></li>
             </ul>
         </nav>
     </header>
 
     <section>
-        <div>
-            <h1>Markup achievement</h1>
-            <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
-            <a href="">Learn More</a>
+        <div class="product-info-block">
+            <h1 class="main-title">Markup achievement</h1>
+            <p class="info-text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+            <a class="btn" href="">Learn More</a>
         </div>
         <div>
             <img src="./assets/images/image.png" alt="">
@@ -35,7 +39,7 @@
     <section>
         <h2>Rates</h2>
         <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
-        <tabel>
+        <table>
             <tr>
                 <th>Features</th>
                 <th>Standart</th>
@@ -62,11 +66,11 @@
             </tr>
             <tr>
                 <td>Have questions?</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><button>get now</button></td>
+                <td><button>get now</button></td>
+                <td><button>get now</button></td>
             </tr>
-        </tabel>
+        </table>
     </section>
     <section>
         <div>
@@ -82,31 +86,33 @@
             </ol>
         </div>
         <div>
-            <!-- <input type="textarea" placeholder="Something else about you...">
-            <input type="submit" value="registration"> -->
-            <form action="">
+            <form action="./index.html">
                 <input type="text" placeholder="Full Name*">
                 <input type="email" placeholder="Email*">
                 <input type="password" placeholder="Password*">
-                <input type="date" placeholder="Date of Birth*">
+                <input type="date">
                 <select>
                     <option selected disabled>Country</option>
                     <option value="1">Belarus</option>
                     <option value="2">China</option>
                     <option value="3">Usa</option>
                 </select>
-                <label for=""><input type="radio" name="stack" value="Frontend" checked>Frontend</label>
-                <label for=""><input type="radio" name="stack" value="Backend" checked>Backend</label>
-                <!-- 
-                <input type="radio" name="elem" value="Frontend" checked>Frontend<br>
-                <input type="radio" name="elem" value="Backend">Backend<br>
-                 -->
+                <label><input type="radio" name="stack" value="Frontend" checked>Frontend</label>
+                <label><input type="radio" name="stack" value="Backend">Backend</label>
                 <fieldset>
                     <legend>Favorite Technologies</legend>
-                    <label for=""><input type="checkbox">HTML</input></label>
-                    <label for=""><input type="checkbox">CSS</input></label>
-                    <label for=""><input type="checkbox">React</input></label>
-                    <label for=""><input type="checkbox">Styled components</input></label>
+                    <label>
+                        <input type="checkbox">HTML
+                    </label>
+                    <label>
+                        <input type="checkbox">CSS
+                    </label>
+                    <label>
+                        <input type="checkbox">React
+                    </label>
+                    <label>
+                        <input type="checkbox">Styled components
+                    </label>
                 </fieldset>
                 <textarea placeholder="Something else about you..."></textarea>
                 <input type="submit">
@@ -117,6 +123,5 @@
         <span>Copyright © 2023. All rights reserved.</span>
     </footer>
 </body>
-
 
 </html>

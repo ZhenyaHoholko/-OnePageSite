@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    font-style: normal;
+    line-height: normal;
+    font-family: Rubik;
+}
+
+.header-content{
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.product-info-block{
+    padding: 252px 0 0 130px;
+}
+
+.main-title{
+    font-family: Rubik, sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 68px;
+}
+.info-text{
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn{
+    height: 70px;
+    width: 100%;
+    background-color: #141414;
+    color: #fff;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    margin-top: 75px;
+}
