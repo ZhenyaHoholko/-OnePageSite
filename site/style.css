@@ -6,6 +6,10 @@
 ul{
     list-style: none;
 }
+html{
+    width: 1400px;
+    height: 2281px; 
+}
 
 body{
     font-style: normal;
@@ -47,6 +51,15 @@ body{
     font-weight: 500;
     letter-spacing: 0.18px;
     margin-top: 75px;
+}
+.bottom-content{
+    display: flex;
+}
+.right-bottom-content{
+margin: 100px 130px 100px 80px;
+}
+.left-bottom-content{
+    margin: 100px 80px 248px 130px;
 }
 .title{
     font-family: Rubik, sans-serif;
@@ -129,4 +142,77 @@ body{
 .btn-color{
     background-color: #0A61F7;
     color: #fff;
+}
+.info-text-point{
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.text-form{
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #95A1BB;
+    
+}
+input::-webkit-input-placeholder { 
+    color:  #95A1BB; 
+    font-size: 16px;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textarea-content{
+    width: 480px;
+    height: 80px;
+    /* border-radius: 4px; */
+    /* border: 1px solid #95A1BB; */
+}
+.checkbox-content{
+    border: 1px solid #95A1BB;
+    border-radius: 4px;
+    width: 480px;
+    height: 83px;
+}
+.input{
+    border: 1px solid #95A1BB;
+    border-radius: 4px;
+    padding: 14px 0 13px 15px ;
+    text-align: left;   
+}
+.full-name{
+  width: 480px;
+  height: 50px;  
+  margin: 0 0 20px 0;
+}
+.email{
+    width: 230px;
+    height: 50px;
+    margin: 0 15px 20px 0;
+}
+.password{
+    width: 230px;
+    height: 50px;
+}
+.date-of-birth{
+    width: 230px;
+    height: 50px;
+    margin: 0 15px 20px 0;
+}
+.contry{
+    width: 230px;
+    height: 50px;
+    appearance: none;
+    background-image: url(./assets/images/checkMark.png);
+    background-repeat: no-repeat;
+    background-position: right 0 top 50% ;
 }
