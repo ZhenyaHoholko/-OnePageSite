@@ -104,23 +104,28 @@
                     <option value="3" class="text-form">Usa</option>
                 </select>
                 <br>
-                <label><input type="radio" name="stack" value="Frontend" checked><a
-                        class="text-form">Frontend</a></label>
-                <label><input type="radio" name="stack" value="Backend"><a class="text-form">Backend</a></label>
-                <fieldset class="checkbox-content">
-                    <legend class="text-form">Favorite Technologies</legend>
-                    <label>
-                        <input type="checkbox"><a class="text-form">HTML</a>
-                    </label>
-                    <label>
-                        <input type="checkbox"><a class="text-form">CSS</a>
-                    </label>
-                    <label>
-                        <input type="checkbox"><a class="text-form">React</a>
-                    </label>
-                    <label>
-                        <input type="checkbox"><a class="text-form">Styled components</a>
-                    </label>
+                <div class="stack">
+                    <label><input type="radio" name="stack" value="Frontend" checked class="stack-content"><a
+                            class="text-form">Frontend</a></label>
+                    <label class="stack-right"><input type="radio" name="stack" value="Backend" class="stack-content"><a
+                            class="text-form">Backend</a></label>
+                </div>
+                <fieldset class="checkbox">
+                    <legend class="text-form title-form">Favorite Technologies</legend>
+                    <div class="checkbox-content">
+                        <label>
+                            <input type="checkbox"><a class="text-form">HTML</a>
+                        </label>
+                        <label>
+                            <input type="checkbox"><a class="text-form">CSS</a>
+                        </label>
+                        <label>
+                            <input type="checkbox"><a class="text-form">React</a>
+                        </label>
+                        <label>
+                            <input type="checkbox"><a class="text-form">Styled components</a>
+                        </label>
+                    </div>
                 </fieldset>
                 <textarea placeholder="Something else about you..." class="textarea-content"></textarea>
                 <input type="submit">

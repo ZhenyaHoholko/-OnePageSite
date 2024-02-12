@@ -159,7 +159,7 @@ margin: 100px 130px 100px 80px;
     letter-spacing: 0em;
     text-align: left;
     color: #95A1BB;
-    
+    margin-left: 8px;
 }
 input::-webkit-input-placeholder { 
     color:  #95A1BB; 
@@ -176,12 +176,16 @@ input::-webkit-input-placeholder {
     height: 80px;
     /* border-radius: 4px; */
     /* border: 1px solid #95A1BB; */
+    margin-top: 20px;
 }
-.checkbox-content{
+.checkbox{
     border: 1px solid #95A1BB;
     border-radius: 4px;
     width: 480px;
     height: 83px;
+}
+.checkbox-content{
+    margin:0 15px 0 20px;
 }
 .input{
     border: 1px solid #95A1BB;
@@ -209,10 +213,30 @@ input::-webkit-input-placeholder {
     margin: 0 15px 20px 0;
 }
 .contry{
+    color: #95A1BB;
     width: 230px;
     height: 50px;
     appearance: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
     background-image: url(./assets/images/checkMark.png);
     background-repeat: no-repeat;
-    background-position: right 0 top 50% ;
+    background-position: right 15px top 50% ;
+}
+.stack{
+   margin: 20px 0 20px 0;
+}
+.stack-content{
+    text-align: left;
+}
+.stack-right{
+    margin: 30px;
+}
+.title-form{
+    margin-left: 43px;
+    margin-bottom: 18px;
 }
