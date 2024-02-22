@@ -183,6 +183,7 @@ input::-webkit-input-placeholder {
     border-radius: 4px;
     width: 480px;
     height: 83px;
+    color: #0A61F7;
 }
 .checkbox-content{
     margin:0 15px 0 20px;
