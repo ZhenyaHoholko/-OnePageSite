@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+html{
+    width: 1400px;
+    height: 2281px; 
+}
+
+body{
+    font-style: normal;
+    line-height: normal;
+    font-family: Rubik;
+}
+
+.header-content{
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.product-info-block{
+    padding: 252px 0 0 130px;
+}
+
+.main-title{
+    font-family: Rubik, sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 68px;
+}
+.info-text{
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #95A1BB;
+    ;
+}
+
+.btn{
+    height: 70px;
+    width: 100%;
+    background-color: #141414;
+    color: #fff;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    margin-top: 75px;
+}
+.bottom-content{
+    display: flex;
+}
+.right-bottom-content{
+margin: 100px 130px 100px 80px;
+}
+.left-bottom-content{
+    margin: 100px 80px 248px 130px;
+}
+.title{
+    font-family: Rubik, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin: 100px 0 20px 0 ;
+}
+
+.table{
+    margin: 40px 230px 100px 230px;
+    border-collapse: collapse;
+    border: 1px solid #95A1BB;
+}
+.table-size{
+    width: 241px;
+    height: 52px;
+}
+
+.table-th{
+    margin: 15px 20px;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #363940;
+    border: 1px solid #95A1BB;
+}
+
+.table-th-left{
+    padding: 15px 20px;
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #95A1BB;
+    border: 1px solid #95A1BB;
+}
+
+.table-td-left{
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #363940;
+    border: 1px solid #95A1BB;
+}
+.table-bottom-left{
+    color: #0A61F7;
+    border: 1px solid #95A1BB;
+}
+
+.table-bottom-btn{
+    border: 1px solid #95A1BB;
+}
+.table-middle{
+    border: 1px solid #95A1BB; 
+}
+.table-btn{
+    height: 36px;
+    width: 140px;
+    border: 1px solid #0A61F7;
+    border-radius: 4px;
+    color: #0A61F7;
+    font-family: Rubik, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-color{
+    background-color: #0A61F7;
+    color: #fff;
+}
+.info-text-point{
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.text-form{
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #95A1BB;
+    margin-left: 8px;
+}
+input::-webkit-input-placeholder { 
+    color:  #95A1BB; 
+    font-size: 16px;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textarea-content{
+    width: 480px;
+    height: 80px;
+    border-radius: 0px;
+    border: 1px solid #95A1BB;
+    margin-top: 20px;
+}
+.checkbox{
+    border: 1px solid #95A1BB;
+    border-radius: 4px;
+    width: 480px;
+    height: 83px;
+    color: #0A61F7;
+}
+.checkbox-content{
+    margin:0 15px 0 20px;
+}
+.input{
+    border: 1px solid #95A1BB;
+    border-radius: 4px;
+    padding: 14px 0 13px 15px ;
+    text-align: left;   
+}
+.full-name{
+  width: 480px;
+  height: 50px;  
+  margin: 0 0 20px 0;
+}
+.email{
+    width: 230px;
+    height: 50px;
+    margin: 0 15px 20px 0;
+}
+.password{
+    width: 230px;
+    height: 50px;
+}
+.date-of-birth{
+    width: 230px;
+    height: 50px;
+    margin: 0 15px 20px 0;
+}
+.contry{
+    color: #95A1BB;
+    width: 230px;
+    height: 50px;
+    appearance: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-image: url(./assets/images/checkMark.png);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50% ;
+}
+.stack{
+   margin: 20px 0 20px 0;
+}
+.stack-content{
+    text-align: left;
+}
+.stack-right{
+    margin: 30px;
+}
+.title-form{
+    margin-left: 43px;
+    margin-bottom: 18px;
+}
