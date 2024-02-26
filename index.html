@@ -6,135 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <a href="">
-            <img src="./assets/images/true.png" alt="">
-        </a>
-
-        <nav>
-            <ul>
-                <li class="header-content"><a href="">Main</a></li>
-                <li class="header-content"><a href="">Rates</a></li>
-                <li class="header-content"><a href="">Create account</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <section>
-        <div class="product-info-block">
-            <h1 class="main-title">Markup achievement</h1>
-            <p class="info-text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
-            <a class="btn" href="">Learn more</a>
-        </div>
-        <div>
-            <img src="./assets/images/image.png" alt="">
-        </div>
-    </section>
-    <section>
-        <h2 class="title">Rates</h2>
-        <p class="info-text">Failure will never overtake me if my determination to succeed is strong enough.</p>
-        <div0.>
-            <table class="table">
-                <tr>
-                    <th class="table-th-left table-size">Features</th>
-                    <th class="table-th table-size">Standart</th>
-                    <th class="table-th table-size">Plus</th>
-                    <th class="table-th table-size">PRO</th>
-                </tr>
-                <tr>
-                    <td class="table-td-left table-size">Theory</td>
-                    <td class="table-middle table-size"><img src="./assets/images/true.png" alt=""></td>
-                    <td class="table-middle table-size"><img src="./assets/images/true.png" alt=""></td>
-                    <td class="table-middle table-size"><img src="./assets/images/true.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="table-td-left table-size">Practice</td>
-                    <td class="table-middle table-size"><img src="./assets/images/false.png" alt=""></td>
-                    <td class="table-middle table-size"><img src="./assets/images/true.png" alt=""></td>
-                    <td class="table-middle table-size"><img src="./assets/images/true.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="table-td-left table-size">Code review</td>
-                    <td class="table-middle table-size"><img src="./assets/images/false.png" alt=""></td>
-                    <td class="table-middle table-size"><img src="./assets/images/false.png" alt=""></td>
-                    <td class="table-middle table-size"><img src="./assets/images/true.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="table-bottom-left table-size">Have questions?</td>
-                    <td class="table-bottom-btn table-size"><button class="table-btn">get now</button></td>
-                    <td class="table-bottom-btn table-size"><button class="table-btn btn-color">get now</button></td>
-                    <td class="table-bottom-btn table-size"><button class="table-btn">get now</button></td>
-                </tr>
-            </table>
-            </div>
-
-    </section>
-    <section class="bottom-content">
-        <div class="left-bottom-content">
-            <h2 class="title">Create your free account</h2>
-            <p class="info-text">Let us first talk about dreams. We all know that dreams do play a role in our daily
-                lives. The majority
-                of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and
-                see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be,
-                regardless of the fact that in real life.</p>
-            <ol>
-                <li class="info-text-point"><img src="./assets/images/true.png" alt="">Easy setup, fast start</li>
-                <li class="info-text-point"><img src="./assets/images/true.png" alt="">Free forever for core features
-                </li>
-                <li class="info-text-point"><img src="./assets/images/true.png" alt="">14-day trial of premium features
-                </li>
-            </ol>
-        </div>
-        <div class="right-bottom-content">
-            <form action="./index.html">
-                <input type="text" placeholder="Full Name*" class="input full-name">
-                <input type="email" placeholder="Email*" class="input email">
-                <input type="password" placeholder="Password*" class="input password">
-                <input type="date" class="input date-of-birth">
-                <select class="input contry">
-                    <option selected disabled class="text-form"><a>Country</a></option>
-                    <option value="1" class="text-form">Belarus</option>
-                    <option value="2" class="text-form">China</option>
-                    <option value="3" class="text-form">Usa</option>
-                </select>
-                <br>
-                <div class="stack">
-                    <label><input type="radio" name="stack" value="Frontend" checked class="stack-content"><a
-                            class="text-form">Frontend</a></label>
-                    <label class="stack-right"><input type="radio" name="stack" value="Backend" class="stack-content"><a
-                            class="text-form">Backend</a></label>
+        <div class="card">
+            <div class="product-image-block">
+                <div class="main-image-wrapper">
+                    <img src="./assets/images/main-image.png" alt="">
                 </div>
-                <fieldset class="checkbox">
-                    <legend class="text-form title-form">Favorite Technologies</legend>
-                    <div class="checkbox-content">
-                        <label>
-                            <input type="checkbox"> <a class="text-form">HTML</a>
-                        </label>
-                        <label>
-                            <input type="checkbox"> <a class="text-form">CSS</a>
-                        </label>
-                        <label>
-                            <input type="checkbox"> <a class="text-form">React</a>
-                        </label>
-                        <label>
-                            <input type="checkbox"> <a class="text-form">Styled components</a>
-                        </label>
+                <div class="previews-wrapper">
+                    <div class="preview selected">
+                        <img src="./assets/images/image-1.png" alt="">
                     </div>
-                </fieldset>
-                <textarea placeholder="Something else about you..." class="textarea-content"></textarea>
-                <input type="submit">
-            </form>
+                    <div class="preview">
+                        <img src="./assets/images/image-2.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-info-block">
+                <h1 class="main-title">Fluted Contrast</h1>
+                <span class="subtitile">Mug / 33 cl</span>
+                <p class="Text">Fluted Contrast represents the perfect fusion between the aesthetic and the
+                    functional. The design is
+                    elegant and modern, created out of a deep respect for Royal British history and traditions</p>
+                <div class="colors">
+                    <h2 class="title">Color options</h2>
+                    <ul class="color-items">
+                        <li class="selected">
+                            <div class="circle bleu"></div>
+                        </li>
+                        <li>
+                            <div class="circle green"></div>
+                        </li>
+                        <li>
+                            <div class="circle red"></div>
+                        </li>
+                        <li>
+                            <div class="circle black"></div>
+                        </li>
+                        <li>
+                            <div class="circle yellow"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="wrapper">
+                    <div>
+                        <h2 class="title">Quantity</h2>
+                        <select class="quantity" name="quantity" id="quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h2 class="title">Price</h2>
+                        <span class="price">eur 39,00</span>
+                    </div>
+                </div>
+                <button class="btn">Add To Basket</button>
+            </div>
         </div>
     </section>
-    <footer>
-        <span>Copyright © 2023. All rights reserved.</span>
-    </footer>
 </body>
 
 </html>
